@@ -35,7 +35,7 @@ li {
     background-image: url('hero-bg.jpg');
     background-size: cover;
     text-align: center;
-    color: #fff;
+    /*color: #fff;*/
     padding: 100px;
 }
 
@@ -73,8 +73,15 @@ footer {
     background-color: #333;
     color: #fff;
 }
+
+.logo-container {
+  position: absolute;
+  top: 30px; /* Ajusta la posición vertical según tus preferencias */
+  left: 30px; /* Ajusta la posición horizontal según tus preferencias */
+}
 #icono{
     width: 100px;
+    height: auto;
 }
 .opciones a{
     text-decoration: none;
@@ -84,7 +91,7 @@ footer {
 
 
 /*Botones de opciones*/
-.contactButton {
+.opciones button {
     background: #064169;
     color: white;
     font-family: inherit;
@@ -104,12 +111,14 @@ footer {
     padding-right: 3em;
   }
   
-  .contactButton:hover {
+  .opciones button:hover {
     transform: translate(-0.05em, -0.05em);
     box-shadow: 0.15em 0.15em #5566c2;
   }
   
-  .contactButton:active {
+  .opciones button:active {
     transform: translate(0.05em, 0.05em);
     box-shadow: 0.05em 0.05em #5566c2;
   }
+
+
