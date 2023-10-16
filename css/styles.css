@@ -32,10 +32,9 @@ li {
 }
 
 .hero {
-    background-image: url('hero-bg.jpg');
+    background-color: #0641698a;
     background-size: cover;
     text-align: center;
-    /*color: #fff;*/
     padding: 100px;
 }
 
@@ -58,7 +57,7 @@ li {
 }
 
 .tarifas {
-    background-color: #f3f3f3;
+    background-color: #f3f3f34b;
     padding: 40px;
 }
 
