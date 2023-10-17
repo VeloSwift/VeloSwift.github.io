@@ -32,11 +32,34 @@ li {
 }
 
 .hero {
+    /*background-image: url("/img/banner-ny.png");*/
     background-color: #0641698a;
     background-size: cover;
     text-align: center;
-    padding: 100px;
+    /*padding: 100px;*/
     font-size: 20px;
+}
+.banner{
+    text-align: center;
+}
+.banner img{
+    width: 100%;
+    max-width: 100%;
+    display: block;
+}
+
+.texto_banner{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    font-family: sans-serif;
+}
+.texto_imagen_presentativa{
+    font-size: 30px;
+    font-family: sans-serif;
+    text-align: center;
 }
 
 .btn {
@@ -131,5 +154,7 @@ footer {
     transform: translate(0.05em, 0.05em);
     box-shadow: 0.05em 0.05em #5566c2;
   }
+
+
 
 
