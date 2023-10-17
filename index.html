@@ -86,6 +86,46 @@
     <a href="mailto:veloswiftbusiness@gmail.com" class="btn" target="_blank">Escríbenos</a>
   </section>
 
+  <section id="calculadora">
+    <h2>Calculadora de Tarifas</h2>
+    <form id="calculadora-form">
+        <label for="distancia">Distancia (en kilómetros):</label>
+        <input type="number" id="distancia" name="distancia" step="0.1" required>
+
+        <label for="tarifa-base">Tarifa Base (en USD):</label>
+        <input type="number" id="tarifa-base" name="tarifa-base" step="0.01" required>
+
+        <label for="tarifa-por-km">Tarifa por Kilómetro (en USD):</label>
+        <input type="number" id="tarifa-por-km" name="tarifa-por-km" step="0.01" required>
+
+        <button type="button" id="calcular-btn">Calcular Tarifa</button>
+        
+        <p id="resultado"></p>
+    </form>
+</section>
+
+<script>
+  // Función para calcular la tarifa
+  function calcularTarifa() {
+      const distancia = parseFloat(document.getElementById("distancia").value);
+      const tarifaBase = parseFloat(document.getElementById("tarifa-base").value);
+      const tarifaPorKm = parseFloat(document.getElementById("tarifa-por-km").value);
+
+      if (!isNaN(distancia) && !isNaN(tarifaBase) && !isNaN(tarifaPorKm)) {
+          const tarifaTotal = tarifaBase + (distancia * tarifaPorKm);
+          document.getElementById("resultado").textContent = `Tarifa estimada: $${tarifaTotal.toFixed(2)}`;
+      } else {
+          document.getElementById("resultado").textContent = "Por favor, complete todos los campos correctamente.";
+      }
+  }
+
+  // Agregar evento al botón de cálculo
+  const calcularBtn = document.getElementById("calcular-btn");
+  calcularBtn.addEventListener("click", calcularTarifa);
+</script>
+
+
+
 
 
 
