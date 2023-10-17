@@ -66,7 +66,7 @@ body.dark-mode {
     transition: var(--transition);
     position: absolute;
     top: 1.4em;
-    right: 37em;
+    right: 42em;
   }
   
   .theme-switch__container::before {

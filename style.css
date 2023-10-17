@@ -104,6 +104,11 @@ footer {
     width: 115px;
     height: auto;
 }
+
+.opciones{
+    display: flex;
+    height: 2.75em;
+}
 .opciones a{
     text-decoration: none;
     text-align: center;
@@ -119,7 +124,7 @@ footer {
 
 
 /*Botones de opciones*/
-.opciones button {
+/*.opciones button {
     background: #064169;
     color: white;
     font-family: Arial, sans-serif;
@@ -150,6 +155,27 @@ footer {
     transform: translate(0.05em, 0.05em);
     box-shadow: 0.05em 0.05em #5566c2;
   }
+
+
+/*Botones de opciones V2*/
+.opciones button {
+    font-family: Arial, sans-serif;
+    font-size: 23px;
+    padding: 10px 20px;
+    color: #fff; /* Color del texto transparente */
+    text-decoration: none;
+    border: none;
+    border-radius: 18px;
+    background-color: #a3eaee;
+    transition: background-color 0.3s, color 0.3s; /* Transición de color de fondo y texto */
+  }
+  
+  .opciones button:hover {
+    background-color: #042b42; /* Color de fondo del botón al pasar el ratón */
+  }
+  
+
+
 
 /*Botón servicios*/
 .button_s {
