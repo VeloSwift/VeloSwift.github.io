@@ -31,20 +31,14 @@ li {
     margin: 0 20px;
 }
 
-.hero {
-    /*background-image: url("/img/banner-ny.png");*/
-    background-color: #0641698a;
-    background-size: cover;
-    text-align: center;
-    /*padding: 100px;*/
-    font-size: 20px;
-}
+
 .banner{
     text-align: center;
 }
 .banner img{
     width: 100%;
     display: block;
+    filter: blur(3px);
 }
 
 .texto_banner{
@@ -53,7 +47,7 @@ li {
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 30px;
-    font-family: sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .texto_imagen_presentativa{
     font-size: 15px;
@@ -102,6 +96,7 @@ footer {
 
 .logo-container {
   position: absolute;
+  z-index: 9999; /* Asigna un valor alto al z-index para que la imagen esté en primer plano */
   top: 25px; /* Ajusta la posición vertical según tus preferencias */
   left: 30px; /* Ajusta la posición horizontal según tus preferencias */
 }
@@ -142,6 +137,8 @@ footer {
     overflow: hidden;
     position: relative;
     height: 2.5em;
+    transition: 0.2s;
+    cursor: pointer;
   }
   
   .opciones button:hover {
@@ -154,6 +151,34 @@ footer {
     box-shadow: 0.05em 0.05em #5566c2;
   }
 
-
+/*Botón servicios*/
+.button_s {
+    display: inline-block;
+    padding: 12px 28px;
+    margin: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    background-image: linear-gradient(to bottom right, #00c6ff, #0072ff);
+    border: none;
+    border-radius: 40px;
+    box-shadow: 0px 4px 0px #0072ff;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+  }
+  
+  .button_s:hover {
+    transform: translateY(-2px);
+    box-shadow: 0px 6px 0px #0072ff;
+  }
+  
+  .button_s:active {
+    transform: translateY(0px);
+    box-shadow: none;
+    background-image: linear-gradient(to bottom right, #0072ff, #00c6ff);
+  }
+  
+  
 
 

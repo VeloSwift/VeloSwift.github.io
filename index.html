@@ -51,38 +51,41 @@
           </div>
         </label>
         <script src="js/aspecto.js"></script>
+        
         <!--Botones navegador-->
         <div class="opciones">
           <ul>
             <li>
-              <a href="#inicio"><button>Inicio</button></a>
+              <a href="#" data-target="#inicio" class="scroll-button"><button>Inicio</button></a>
             </li>
             <li>
-              <a href="#servicios"><button>Servicios</button></a>
+              <a href="#" data-target="#servicios" class="scroll-button"><button>Servicios</button></a>
             </li>
             <li>
-              <a href="#tarifas"><button>Tarifas</button></a>
+              <a href="#" data-target="#tarifas" class="scroll-button"><button>Tarifas</button></a>
             </li>
             <li>
-              <a href="#contacto"><button>Contacto</button></a>
+              <a href="#" data-target="#contacto" class="scroll-button"><button>Contacto</button></a>
             </li>
           </ul>
         </div>
+        
       </nav>
     </header>
+    
 
     <div class="banner">
       <img src="/img/banner_day.jpg" id="bannerImage"/>
       <div class="texto_banner">
         <h1>VeloSwift</h1>
         <p>Tu viaje en moto, a tu alcance</p>
-        <a href="#servicios" class="btn">Ver Servicios</a>
+        <a href="#" data-target="#servicios" class="scroll-button"><button class="button_s">Ver Servicios</button></a>
       </div>
     </div>
 
     <div class="texto_imagen_presentativa">
       <br />
-      <h1>Imagen presentatíva</h1>
+      <h1>Imagen presentativa</h1>
       <br />
     </div>
 
@@ -120,5 +123,6 @@
     <footer>
       <p>&copy; 2023 VeloSwift - Tu viaje en moto</p>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>
