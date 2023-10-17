@@ -44,7 +44,6 @@ li {
 }
 .banner img{
     width: 100%;
-    max-width: 100%;
     display: block;
 }
 
@@ -57,7 +56,7 @@ li {
     font-family: sans-serif;
 }
 .texto_imagen_presentativa{
-    font-size: 30px;
+    font-size: 15px;
     font-family: sans-serif;
     text-align: center;
 }
