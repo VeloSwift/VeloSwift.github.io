@@ -11,6 +11,10 @@ body.dark-mode {
     color: #fff;
 }
 
+.contacto a.dark-mode{
+  background-color: #6b6b6b;
+}
+
 
 
 

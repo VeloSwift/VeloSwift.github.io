@@ -67,6 +67,10 @@ li {
     padding: 40px;
 }
 
+.contacto a{
+    background-color: #333333;
+}
+
 footer {
     text-align: center;
     padding: 20px;
