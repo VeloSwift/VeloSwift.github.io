@@ -33,3 +33,6 @@ Si deseas contribuir a este proyecto, siéntete libre de abrir problemas (issues
 Si tienes alguna pregunta o necesitas asistencia, no dudes en contactarnos en [veloswiftbusiness@gmail.com](mailto:veloswiftbusiness@gmail.com).
 
 ¡Gracias por usar VeloSwift y disfruta de tus viajes!
+
+
+https://prod.liveshare.vsengsaas.visualstudio.com/join?4D6F993441B567A6A4E8A7DFBE2E34C4588B
