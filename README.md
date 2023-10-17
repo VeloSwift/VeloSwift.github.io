@@ -33,7 +33,3 @@ Si deseas contribuir a este proyecto, siéntete libre de abrir problemas (issues
 Si tienes alguna pregunta o necesitas asistencia, no dudes en contactarnos en [veloswiftbusiness@gmail.com](mailto:veloswiftbusiness@gmail.com).
 
 ¡Gracias por usar VeloSwift y disfruta de tus viajes!
-
----
-
-*Nota: Este es solo un ejemplo de contenido para un archivo README.md. Asegúrate de personalizarlo de acuerdo a las necesidades y características específicas de tu aplicación VeloSwift.*
