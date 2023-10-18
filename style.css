@@ -138,7 +138,8 @@ footer {
   }
   
   .opciones button:hover {
-    background-color: #042b42; /* Color de fondo del botón al pasar el ratón */
+    background-color: #156796; /* Color de fondo del botón al pasar el ratón */
+    cursor: pointer;
   }
   
 
