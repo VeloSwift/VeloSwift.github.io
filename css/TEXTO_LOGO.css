@@ -9,11 +9,11 @@
 }
 
 .wp-block-site-title a:where(:not(.wp-element-button)) {
-    color: var(--wp--preset--color--foreground);
+    color: #fff;
     text-decoration: none
 }
 
 .wp-block-site-title a:where(:not(.wp-element-button)):hover {
-    color: var(--wp--preset--color--foreground);
+    color: #fff;
     text-decoration: underline
 }
