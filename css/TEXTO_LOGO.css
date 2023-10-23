@@ -1,0 +1,19 @@
+/*TEXTO LOGO*/
+.wp-block-site-title a {
+    color: inherit
+}
+
+.wp-block-site-title {
+    font-size: var(--wp--preset--font-size--medium);
+    font-style: normal;
+}
+
+.wp-block-site-title a:where(:not(.wp-element-button)) {
+    color: var(--wp--preset--color--foreground);
+    text-decoration: none
+}
+
+.wp-block-site-title a:where(:not(.wp-element-button)):hover {
+    color: var(--wp--preset--color--foreground);
+    text-decoration: underline
+}

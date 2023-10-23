@@ -1,0 +1,13 @@
+/*BOTONES MENU*/
+.wp-block-navigation {
+    font-size: var(--wp--preset--font-size--small)
+}
+
+.wp-block-navigation a:where(:not(.wp-element-button)) {
+    color: inherit;
+    text-decoration: none
+}
+
+.wp-block-navigation a:where(:not(.wp-element-button)):hover {
+    text-decoration: underline
+}

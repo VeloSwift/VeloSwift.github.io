@@ -1,0 +1,15 @@
+/* Agregar espacio encima del enlace ancla */
+.scroll {
+    scroll-margin-top: 250px;
+}
+
+/* Forzar el efecto Smooth (siempre y cuando el Navegador lo permita) */
+html {
+    scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
+}
