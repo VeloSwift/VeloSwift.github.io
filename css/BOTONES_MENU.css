@@ -9,5 +9,6 @@
 }
 
 .wp-block-navigation a:where(:not(.wp-element-button)):hover {
+    color: #fff;
     text-decoration: underline
 }
