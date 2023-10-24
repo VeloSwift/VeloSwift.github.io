@@ -4,7 +4,7 @@
 }
 
 .wp-block-navigation a:where(:not(.wp-element-button)) {
-    color: inherit;
+    color: #fff;
     text-decoration: none
 }
 
