@@ -19,7 +19,7 @@
     fill: #6696cc;
 }
 
-/*WAVE*/
+/*WAVE 2*/
 .wave2 {
     position: absolute;
     top: 0;
@@ -38,4 +38,25 @@
 
 .wave2 .shape-fill {
     fill: #11181f;
+}
+
+/*WAVE 3*/
+.wave3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.wave3 svg {
+    position: relative;
+    display: block;
+    width: calc(125% + 1.3px);
+    height: 150px;
+}
+
+.wave3 .shape-fill {
+    fill: #fff;
 }

@@ -1,9 +1,0 @@
-/*Secciones*/
-section {
-    position: relative;
-}
-
-.superpuesto {
-    position: absolute;
-    z-index: 1; /* Controla la superposición, puedes ajustar este valor según tus necesidades */
-}
