@@ -16,7 +16,8 @@
 }
 
 .wave .shape-fill {
-    fill: #6696cc;
+    fill: #67a2bd;
+    opacity: 0.75;
 }
 
 /*WAVE 2*/
